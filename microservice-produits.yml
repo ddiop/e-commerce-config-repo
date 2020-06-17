@@ -1,0 +1,15 @@
+server:
+  port: 9001
+
+spring:
+  datasource:
+    sql-script-encoding: UTF-8
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+
+# mes configs
+app-configs:
+  limit-de-produits: 4
