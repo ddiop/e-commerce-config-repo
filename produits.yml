@@ -1,5 +1,5 @@
 app-configs:
-    limitDeProduits: 3
+    limitDeProduits: 5
 server:
     port: 9001
 spring:
@@ -10,8 +10,7 @@ spring:
             enabled: true
     jpa:
         show-sql: true
-        
- management:
+management:
     endpoints:
         web:
             exposure:
