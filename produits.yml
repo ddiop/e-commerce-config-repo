@@ -1,5 +1,5 @@
 app-configs:
-    limitDeProduits: 5
+    limitDeProduits: 4
 server:
     port: 9001
 spring:
