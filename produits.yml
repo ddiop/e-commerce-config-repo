@@ -1,3 +1,5 @@
+server:
+    port: 9001
 
 spring:
     datasource:
@@ -7,14 +9,14 @@ spring:
             enabled: true
     jpa:
         show-sql: true
-        
+
 #actuator
 management:
     endpoints:
         web:
             exposure:
                 include: '*'
-                
+
 
  # my configs
 app-configs:
